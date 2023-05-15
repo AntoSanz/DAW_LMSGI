@@ -1,0 +1,87 @@
+body {
+    /* Ajustes del body */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    /* BACKGROUND */
+    background-color: #EEE;
+    background-image: url(../images/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0%;
+    color: white;
+    font-size: 18px;
+}
+
+#main {
+    width: 900px;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+form .parent-fiedset {
+    margin-bottom: 30px;
+}
+
+form .child-fieldset {
+    margin: 0 20%;
+}
+
+
+
+form .elem-group {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+form label {
+    width: 250px;
+    display: inline-block;
+}
+
+form input,
+form select {
+    height: 25px;
+    border: 1px solid #000;
+}
+
+form input[type="file"] {
+    border: none;
+}
+
+form textarea {
+    border: 1px solid #000;
+}
+
+form input:focus,
+textarea:focus {
+    border-color: white;
+    outline: 0 #EEE;
+}
+
+form input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"] {
+    width: 60vh;
+}
+
+form select {
+    width: 25vh;
+}
+
+form .button-group {
+    text-align: center;
+}
+
+form .button-group input[type="submit"],
+form .button-group input[type="reset"] {
+    width: 200px;
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reparaciones>
+  <reparacion>
+    <matricula>3677GHC</matricula>
+    <taller> Hermanos García. Calle Alameda 5, Madrid</taller>
+    <fecha>
+      <dia>14/10/2022</dia>
+      <horaslaborables>8</horaslaborables>
+    </fecha>
+    <departamento>Mecánica</departamento>
+    <trabajador>
+      <nombre>Juan Carlos</nombre>
+      <apellidos>García </apellidos>
+      <telefono>678764533</telefono>
+    </trabajador>
+    <tiempo>
+      <horainicio>09:00</horainicio>
+      <horafin>-</horafin>
+    </tiempo>
+    <coste>-</coste>
+  </reparacion>
+  <reparacion>
+    <matricula>3575GDP</matricula>
+    <taller>Pinturas Especialistas. Calle Toledo 17, Alicante</taller>
+    <fecha>
+      <dia>14/10/2022</dia>
+      <horaslaborables>8</horaslaborables>
+    </fecha>
+    <departamento>Pintura</departamento>
+    <trabajador>
+      <nombre>Antonio </nombre>
+      <apellidos>Fernández  </apellidos>
+      <telefono>678764532</telefono>
+    </trabajador>
+    <tiempo>
+      <horainicio>-</horainicio>
+      <horafin>-</horafin>
+    </tiempo>
+    <coste>Seguro</coste>
+  </reparacion>
+  <reparacion>
+    <matricula>3477GHT</matricula>
+    <taller>Chapa Mercedes. Calle Romero 66, Toledo</taller>
+    <fecha>
+      <dia>15/10/2022</dia>
+      <horaslaborables>6</horaslaborables>
+    </fecha>
+    <departamento>Chapa</departamento>
+    <trabajador>
+      <nombre>Ana </nombre>
+      <apellidos>Pérez </apellidos>
+      <telefono>676764433</telefono>
+    </trabajador>
+    <tiempo>
+      <horainicio>10:00</horainicio>
+      <horafin>12:00</horafin>
+    </tiempo>
+    <coste>300€</coste>
+  </reparacion>
+  <reparacion>
+    <matricula>CR2800P</matricula>
+    <taller>Neumáticos Almansa. Calle Morena 27, Madrid</taller>
+    <fecha>
+      <dia>15/10/2022</dia>
+      <horaslaborables>6</horaslaborables>
+    </fecha>
+    <departamento>Neumáticos</departamento>
+    <trabajador>
+      <nombre>Silvia  </nombre>
+      <apellidos>García  </apellidos>
+      <telefono>638778532</telefono>
+    </trabajador>
+    <tiempo>
+      <horainicio>10:00</horainicio>
+      <horafin>13:00</horafin>
+    </tiempo>
+    <coste>700€</coste>
+  </reparacion>
+</reparaciones>

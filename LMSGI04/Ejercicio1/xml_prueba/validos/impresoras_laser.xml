@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impresoras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Sanz_Pans_Antonio_impresoras.xsd">
+  <impresora numSerie="i245" tipo="láser" compra="2010">
+    <marca>Epson</marca>
+    <modelo>EP A5</modelo>
+    <peso>10.01</peso>
+    <tamaño>A5</tamaño>
+    <cartucho>C-20XL</cartucho>
+  </impresora>
+
+  <impresora numSerie="a123" tipo="láser">
+    <marca>HP</marca>
+    <modelo>Serie L</modelo>
+    <peso>3.2</peso>
+    <tamaño>10</tamaño>
+    <cartucho>C-32CB</cartucho>
+  </impresora>
+
+    <impresora numSerie="b123" tipo="láser" compra="2022">
+      <marca>Cannon</marca>
+      <modelo>SERIE S</modelo>
+      <peso>5.12</peso>
+      <tamaño>DIN A2</tamaño>
+      <tamaño>DIN A3</tamaño>
+      <tamaño>DIN A4</tamaño>
+      <tamaño>DIN A5</tamaño>
+      <cartucho>C-12AB</cartucho>
+    </impresora>
+  
+</impresoras>

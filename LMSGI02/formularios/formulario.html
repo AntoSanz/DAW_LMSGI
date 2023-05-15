@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Solicitud de presupuesto online</h1>
+        <form action="mailto:solicitudpresupuestos@tecnofar.com" method="post">
+            <fieldset id="datos-principales" class="parent-fiedset">
+                <legend>Datos principales</legend>
+                <div class="elem-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" maxlength="45">
+                </div>
+
+                <div class="elem-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos">
+                </div>
+
+                <div class="elem-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono">
+                </div>
+
+                <div class="elem-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Obligatorio" required>
+                </div>
+
+                <div class="elem-group">
+                    <label for="dias-trabajo">Número de días de trabajo:</label>
+                    <input type="number" id="dias-trabajo" placeholder="1" min="1">
+                </div>
+                <div class="elem-group">
+                    <label for="servicios">Servicios:</label>
+                    <select type="text" id="servicios">
+                        <option value="1">Tratamiento preventivo</option>
+                        <option value="2">Tratamiento de ataque</option>
+                        <option value="3">Poda y saneamiento</option>
+                        <option value="4">Formación</option>
+                        <option value="5">Alquiler maquinaria</option>
+                    </select>
+                </div>
+                <div class="elem-group">
+                    <label for="lugar-aplicacion">Lugar de aplicación</label>
+                    <select type="text" id="lugar-aplicacion" disabled>
+                        <option value="1">Ciudad Real (Capital)</option>
+                        <option value="2">Ciudad Real (Provincia)</option>
+                        <option value="3">Castilla la Mancha</option>
+                        <option value="4">Nacional</option>
+                    </select>
+                </div>
+                <fieldset id="cultivo" class="child-fieldset">
+                    <legend>Cultivo</legend>
+                    <div class="elem-group">
+                        <label for="olivo">Olivo</label>
+                        <input type="radio" id="olivo" name="cultivo" checked>
+                    </div>
+                    <div class="elem-group">
+                        <label for="vid">Vid</label>
+                        <input type="radio" id="vid" name="cultivo">
+                    </div>
+                    <div class="elem-group">
+                        <label for="otros">Otros</label>
+                        <input type="radio" id="otros" name="cultivo">
+                    </div>
+                </fieldset>
+            </fieldset>
+
+            <fieldset id="extras" class="parent-fiedset">
+                <legend>Extras</legend>
+                <div class="elem-group">
+                    <label for="asesoramiento-personalizado">Asesoramiento personalizado</label>
+                    <input type="checkbox" id="asesoramiento-personalizado" checked>
+                </div>
+                <div class="elem-group">
+                    <label for="trabajo-express">Trabajo express</label>
+                    <input type="checkbox" id="trabajo-express">
+                </div>
+                <div class="elem-group">
+                    <label for="asesoramiento-maquina">asesoramiento uso maquinaria alquilada</label>
+                    <input type="checkbox" id="asesoramiento-maquina">
+                </div>
+                <div class="elem-group">
+                    <label for="formacion-campo">Formación en campo</label>
+                    <input type="checkbox" id="formacion-campo">
+                </div>
+            </fieldset>
+
+            <fieldset id="comentarios" class="parent-fiedset">
+                <legend>Comentarios</legend>
+                <div class="elem-group">
+                    <textarea id="" cols="60" rows="10" placeholder="Escribe aquí tus comentarios"></textarea>
+                </div>
+                <div class="elem-group">
+                    <label for="archivo">Adjuntar archivo:</label>
+                    <input type="file" id="archivo">
+                </div>
+            </fieldset>
+            <div class="button-group">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar Datos">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculos>
+  <vehiculo>
+    <matricula>0000 AAA</matricula>
+    <fechainspeccion>
+      <d>01</d>
+      <m>03</m>
+      <y>2021</y>
+    </fechainspeccion>
+    <fechacaducidad>
+      <d>01</d>
+      <m>05</m>
+      <y>2022</y>
+    </fechacaducidad>
+    <tipo>Coche</tipo>
+    <centroinspeccion>ITV Madrid</centroinspeccion>
+    <anomalias>Faros fundidos</anomalias>
+  </vehiculo>
+  
+  <vehiculo>
+    <matricula>1111 BBB</matricula>
+    <fechainspeccion>
+      <d>12</d>
+      <m>11</m>
+      <y>2020</y>
+    </fechainspeccion>
+    <fechacaducidad>
+      <d>27</d>
+      <m>02</m>
+      <y>2020</y>
+    </fechacaducidad>
+    <tipo>Moto</tipo>
+    <centroinspeccion>ITV Ciudad Real</centroinspeccion>
+    <anomalias>Sin anomalias</anomalias>
+  </vehiculo>
+</vehiculos>

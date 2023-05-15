@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reparaciones>
+  <reparacion>
+    <nombre>Sustituir pastillas de freno</nombre>
+    <herramientas>
+      <guantes_reutilizables>2</guantes_reutilizables>
+      <llave_tuercas_rueda>1</llave_tuercas_rueda>
+      <util_retraer_piston>1</util_retraer_piston>
+      <llave_inglesa>1</llave_inglesa>
+      <jeringuilla_purgar_frenos>1</jeringuilla_purgar_frenos>
+      <bancada_coche>1</bancada_coche>
+    </herramientas>
+    <piezas_necesarias>
+      <pastillas_freno>4</pastillas_freno>
+      <liquido_freno>1</liquido_freno>
+    </piezas_necesarias>
+    <proceso>
+1.- Afloja las tuercas de la rueda. 2.- Encuentra los dos pernos/pasadores deslizantes.3.-Sacar el perno interior. 4.- Sacar las pastillas de freno. 5.-Cambiar chapa anti chirridos .6.-Poner las pastillas nuevas en la pinza. 7.-Retraer los pistones hacia atrás. 8.-Introducimos las pastillas con ayuda de pinzas. 9.-Los pernos a su lugar. 10.-Probar las nuevas pastillas.
+  </proceso>
+    <coste>
+      <mano_de_obra>150€</mano_de_obra>
+      <piezas>400€</piezas>
+      <tiempo>1 hora de trabajo</tiempo>
+    </coste>
+  </reparacion>
+</reparaciones>

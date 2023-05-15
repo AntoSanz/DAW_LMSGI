@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impresoras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Sanz_Pans_Antonio_impresoras.xsd">
+  <impresora numSerie="i245" tipo="láser" compra="2010">
+    <marca>Samsung</marca>
+    <modelo>M3820ND</modelo>
+    <peso>5.10</peso>
+    <tamaño>A4</tamaño>
+    <tamaño>A5</tamaño>
+    <tamaño>A6</tamaño>
+    <cartucho>C-20KL</cartucho>
+    <enred/>
+  </impresora>
+  </impresoras>

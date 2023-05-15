@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impresoras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Sanz_Pans_Antonio_impresoras.xsd">
+  <impresora numSerie="i245" tipo="láser" compra="2010">
+    <marca>Epson</marca>
+    <modelo>EPL300</modelo>
+    <peso>4.52</peso>
+    <tamaño>A4</tamaño>
+    <tamaño>A5</tamaño>
+    <cartucho>C-12BV</cartucho>
+    <enred/>
+  </impresora>
+
+  <impresora numSerie="a123" tipo="3D">
+    <marca>Cannon</marca>
+    <modelo>SERIE S</modelo>
+    <peso>5.32</peso>
+    <tamaño>10</tamaño>
+    <cartucho>C-12AB</cartucho>
+  </impresora>
+
+    <impresora numSerie="b123" tipo="tinta" compra="2022">
+      <marca>Cannon</marca>
+      <modelo>SERIE S</modelo>
+      <peso>6</peso>
+      <tamaño>10</tamaño>
+      <cartucho>C-12AB</cartucho>
+      <enred/>
+    </impresora>
+  
+</impresoras>

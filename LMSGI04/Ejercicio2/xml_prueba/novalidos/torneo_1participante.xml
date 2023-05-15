@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneo SYSTEM "../../Sanz_Pans_Antonio_torneo.dtd">
+
+<torneo edicion="1998" anteriorGanador="j01">
+
+    <participante codigo="j01" compañero="">
+        <nombre>Manuel Pérez</nombre>
+        <edad>23</edad>
+        <pais> España</pais>
+        <cabezaDeSerie/>
+    </participante>
+
+</torneo>
