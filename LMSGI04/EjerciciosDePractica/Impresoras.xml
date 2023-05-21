@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE impresoras[
-  <!ELEMENT impresoras (impresora*) >
+  <!ELEMENT impresoras (impresora*) > 
     <!ATTLIST impresoras empresa CDATA #IMPLIED> <!--NO REQUERIDO-->
-    <!ELEMENT impresora (marca, modelo, peso, tamaño+, cartucho, enred?) > 
+    <!ELEMENT impresora (marca, modelo, peso, tamaño+, cartucho, enred?) > <!-- PUEDE HABER CERO O MAS IMPRESORAS-->
       <!ATTLIST impresora numSerie CDATA #REQUIRED> <!--REQUERIDO-->
       <!ATTLIST impresora tipo CDATA #REQUIRED> <!--REQUERIDO-->
       <!ATTLIST impresora compra CDATA #IMPLIED> <!--REQUERIDO-->
       <!ELEMENT marca (#PCDATA)>
       <!ELEMENT modelo (#PCDATA)>
       <!ELEMENT peso (#PCDATA)>
-      <!ELEMENT tamaño (#PCDATA)>
+      <!ELEMENT tamaño (#PCDATA)> <!--PUEDE APARECER UNA O VARIAS VECES (+)-->
       <!ELEMENT cartucho (#PCDATA)>
-      <!ELEMENT enred EMPTY>
+      <!ELEMENT enred EMPTY> <!--CAMPO VACIO, PUEDE APARECER O NO (?)-->
 ]>
 
 <impresoras empresa="IES">

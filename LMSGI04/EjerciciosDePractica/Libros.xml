@@ -2,9 +2,9 @@
 <!DOCTYPE biblioteca[
 <!--DTD-->
 <!ELEMENT biblioteca (libro+)>
-    <!ELEMENT libro (nombre, autor, editorial, precio, fecha)>
+    <!ELEMENT libro (nombre, autor, editorial, precio, fecha)> <!--PUEDE APARECER UNA O VARIAS VECES (+)-->
         <!ELEMENT nombre (#PCDATA)>
-        <!ATTLIST nombre paginas CDATA #REQUIRED>
+        <!ATTLIST nombre paginas CDATA #REQUIRED> <!--REQUERIDO-->
         <!ELEMENT autor (#PCDATA)>
         <!ELEMENT editorial (#PCDATA)>
         <!ELEMENT precio (#PCDATA)>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE torneo[
-    <!ELEMENT torneo (participante+)>
+    <!ELEMENT torneo (participante+)> 
         <!ATTLIST torneo edicion CDATA #REQUIRED>
-        <!ATTLIST torneo anteriorGanador CDATA #REQUIRED>
-        <!ELEMENT participante (nombre, edad, pais, cabezaDeSerie?)>
-            <!ATTLIST participante codigo ID #REQUIRED>
-            <!ATTLIST participante compañero IDREF #REQUIRED>
+        <!ATTLIST torneo anteriorGanador CDATA #REQUIRED> <!--REQUERIDO-->
+        <!ELEMENT participante (nombre, edad, pais, cabezaDeSerie?)> <!--PUEDE APARECER UNA O VARIAS VECES (+)-->
+            <!ATTLIST participante codigo ID #REQUIRED> <!--REQUERIDO, ID-->
+            <!ATTLIST participante compañero IDREF #REQUIRED> <!--REQUERIDO, REFERENCIA AL ID DE OTRO-->
         <!ELEMENT nombre (#PCDATA)>
         <!ELEMENT edad (#PCDATA)>
         <!ELEMENT pais (#PCDATA)>
-        <!ELEMENT cabezaDeSerie EMPTY>
+        <!ELEMENT cabezaDeSerie EMPTY> <!--CAMPO VACIO, PUEDE APARECER O NO (?)-->
 ]>
 
 <torneo edicion="1998" anteriorGanador="j01">
