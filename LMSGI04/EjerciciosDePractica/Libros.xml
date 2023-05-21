@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca[
+<!--DTD-->
+<!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (nombre, autor, editorial, precio, fecha)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ATTLIST nombre paginas CDATA #REQUIRED>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT editorial (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT fecha (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <nombre paginas="600">El Quijote de la mancha</nombre>
+        <autor>Miguel de Cervantes</autor>
+        <editorial>Oveja Negra</editorial>
+        <precio>50</precio>
+        <fecha>2005</fecha>
+    </libro>
+    <libro>
+        <nombre paginas="500">Cien años de soledad</nombre>
+        <autor>Gabriel García Márquez</autor>
+        <editorial>Anaya</editorial>
+        <precio>30</precio>
+        <fecha>2007</fecha>
+    </libro>
+</biblioteca>

@@ -1,10 +1,28 @@
-﻿<!ELEMENT torneo (participante)+ >
+﻿<!--
+Todos los atributos son obligatorios.
+1. El atributo codigo hace de identificador.
+2. El atributo compañero es el identificador de otro participante que forzosamente debe estar presente en el fichero.
+3. El elemento cabezaDeSerie es opcional, los demás son obligatorios.
+4. En cada fichero hay datos para un solo torneo.
+5. El torneo tiene que tener participantes.
+-->
+
+<!--Cuando no aparece un simbolo tras el atributo, indica que debe aparecer una vez y solo una vez -->
+<!--Con el simbolo ? indico que es un atributo opcional -->
+<!--Con el simbolo + indico que debe de haber 1 o mas elementos "participante"-->
+<!--Con el simbolo * indico que puede aparecer cualquier numero de veces o ninguna -->
+<!--(atributo1|atributo2|atributo3) Solo permite una de las opciones-->
+<!ELEMENT torneo (participante)+ >
 <!ATTLIST torneo edicion CDATA #REQUIRED>
 <!ATTLIST torneo anteriorGanador CDATA #REQUIRED>
     <!ELEMENT participante (nombre, edad, pais, cabezaDeSerie?) >
     <!ATTLIST participante codigo ID #REQUIRED>
     <!ATTLIST participante compañero IDREF #REQUIRED>
-        <!ELEMENT nombre (#PCDATA) >
+        <!ELEMENT nombre (#PCDATA) ><!--PCDATA son caracteres libres-->
         <!ELEMENT edad (#PCDATA) >
         <!ELEMENT pais (#PCDATA) >
         <!ELEMENT cabezaDeSerie EMPTY >
+
+        
+        
+        
