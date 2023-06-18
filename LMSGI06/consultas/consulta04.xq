@@ -3,7 +3,7 @@
 <ul>
 {
   for $artista in doc("../artistas.xml")//artista[pais="España"]
-  return <li>{$artista/nombreCompleto}</li>
+  return <li>{$artista/nombreCompleto/text()}</li>
 }
 </ul>
 
