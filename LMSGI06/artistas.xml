@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<artistas>
+      <artista cod="a101">
+            <nombreCompleto>Francisco de Goya</nombreCompleto>
+            <nacimiento>1746</nacimiento>
+            <movimiento>Varios</movimiento>
+            <pais>España</pais>
+            <fichaCompleta>https://es.wikipedia.org/wiki/Francisco_de_Goya</fichaCompleta>;
+      </artista>
+
+      <artista cod="a102">
+            <nombreCompleto>Pablo Picasso</nombreCompleto>
+            <nacimiento>1881</nacimiento>
+            <movimiento>Cubismo</movimiento>
+            <pais>España</pais>
+            <fichaCompleta>https://es.wikipedia.org/wiki/Pablo_Picasso</fichaCompleta>;
+          </artista>
+
+      <artista cod="a103">
+            <nombreCompleto>Michelangelo Caravaggio</nombreCompleto>
+            <nacimiento>1571</nacimiento>
+            <movimiento>Barroco</movimiento>
+            <genero>Pintura Religiosa</genero>
+            <pais>Italia</pais>
+            <fichaCompleta>https://es.wikipedia.org/wiki/Caravaggio</fichaCompleta>;
+      </artista>
+
+      <artista cod="a104">
+            <nombreCompleto>Herrada de Landsberg</nombreCompleto>
+            <nacimiento>1125</nacimiento>
+            <movimiento>Por determinar</movimiento>
+            <pais>Alsacia</pais>
+            <fichaCompleta>https://es.wikipedia.org/wiki/Herrada_de_Landsberg</fichaCompleta>;
+      </artista>
+</artistas>
